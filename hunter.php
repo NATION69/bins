@@ -6,8 +6,8 @@ by:- @x_q_9
 #######$$$########
 /*
 
-$admin = "id";
-define('API_KEY','token');
+$admin = "1782851959";
+define('API_KEY','1821639951:AAG8tUjnaL2XVvgpEvN_QwVi-nUCfw91UNc');
 echo file_get_contents("https://api.telegram.org/bot".API_KEY."/setwebhook?url=".$_SERVER['SERVER_NAME']."".$_SERVER['SCRIPT_NAME']);
 function bot($method,$datas=[]){$x_BRK = http_build_query($datas);
 $url = "https://api.telegram.org/bot".API_KEY."/".$method."?$x_BRK";
